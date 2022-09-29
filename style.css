@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+.clearfix{
+    clear: both;
+}
+body {
+    height: 100%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+ul {
+    color: rgb(132, 204, 87);
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+.barra_superior {
+    background-color: rgb(89,91,105);;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(132, 204, 87);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+a {
+    color: rgb(132, 204, 87);
+    text-decoration: none;
+}
+.sec01{
+    height: 550px;
+    color: white;
+    background-color: rgb(204, 204, 204);
+    background-image: url(../perfil_portifolio/img/HOME1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec02{
+    color: rgb(153, 247, 95);
+    background-color: rgb(89,91,105);
+    margin-left: 10px;
+    line-height: 20px;
+}
+.metade{
+    width: 50%;
+    height: 450px;
+    float: left;
+    background-color: rgb(89,91,105);
+}
+.sec03{
+    background-color: rgb(89,91,105);
+}
+.metade2{
+    width: 50%;
+    height: 450px;
+    float: right;
+    background-color: rgb(89,91,105);
+}
+.sec03 img{
+    width: 250px;
+}
+.sec04{
+    height: 664px;
+    background-color: rgb(127,127,127);
+    background-image: url(../perfil_portifolio/img/links.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.largura40{
+    width: 40%;
+    height: 600px;
+    float: right;
+    font-size: 45px;
+    line-height: 60px;
+    background-color: rgb(127,127,127);
+    padding-top: 30px;
+}
+h1 { 
+    color: rgb(20, 68, 20);
+}
+h3{
+    color: rgb(20, 68, 20);
+}
+.container {
+    padding: 0px 50px;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav a:hover {
+    color:aqua
+}
+.direitos_reservados{
+    background-color:rgb(132, 204, 87);
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.direitos_reservados a{
+    color: white;
+}
+.redes{
+    background-color:rgb(132, 204, 87);
+    display: flex;
+    justify-content: center;
+}
+.redes img{
+    width: 50px;
+}
+.redes p{
+    color: rgb(127,127,127);
+}
